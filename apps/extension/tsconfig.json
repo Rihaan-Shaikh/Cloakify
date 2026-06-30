@@ -1,0 +1,16 @@
+{
+  "extends": "@cloakify/typescript-config/extension.json",
+  "compilerOptions": {
+    "types": ["chrome"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src",
+    "src/vite-env.d.ts",
+    "vite.config.ts",
+    "vitest.config.ts",
+    "playwright.config.ts"
+  ]
+}
